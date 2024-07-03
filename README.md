@@ -2,7 +2,7 @@ This was a little coding challenge, i created this project myself. I used tdd as
 
 installscript for linux:
 
-# Install .NET SDK if not installed
+# Install .NET SDK if not installed, needed Packages, restore and build the project
 if ! command -v dotnet &> /dev/null
 then
     echo ".NET SDK not found, installing..."
@@ -14,9 +14,7 @@ else
     echo ".NET SDK is already installed."
 fi
 
-# Install needed packages
 dotnet add package AutoMapper
 
-# Restore and build the project
 dotnet restore
 dotnet build
