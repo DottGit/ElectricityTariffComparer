@@ -6,8 +6,8 @@ installscript for linux:
 if ! command -v dotnet &> /dev/null
 then
     echo ".NET SDK not found, installing..."
-    wget https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-6.0.100-linux-x64-binaries
-    tar -zxf dotnet-sdk-6.0.100-linux-x64-binaries.tar.gz -C $HOME/dotnet
+    wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh
+    chmod +x ./dotnet-install.sh
     export DOTNET_ROOT=$HOME/dotnet
     export PATH=$PATH:$HOME/dotnet
 else
