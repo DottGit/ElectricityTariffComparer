@@ -14,7 +14,7 @@ else
     echo ".NET SDK is already installed."
 fi
 
-#install packages
+# Install needed packages
 dotnet add package AutoMapper
 
 # Restore and build the project
