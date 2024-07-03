@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricityTariffComparer", "ElectricityTariffComparer\ElectricityTariffComparer.csproj", "{7D2D1B75-663A-4DC4-A585-D73C521BDFF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectricityTariffComparer.Test", "ElectricityTariffComparer.Test\ElectricityTariffComparer.Test.csproj", "{21975292-5125-4DEA-ABFB-E401C015AEB8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7D2D1B75-663A-4DC4-A585-D73C521BDFF8} = {7D2D1B75-663A-4DC4-A585-D73C521BDFF8}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D2D1B75-663A-4DC4-A585-D73C521BDFF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D2D1B75-663A-4DC4-A585-D73C521BDFF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D2D1B75-663A-4DC4-A585-D73C521BDFF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D2D1B75-663A-4DC4-A585-D73C521BDFF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21975292-5125-4DEA-ABFB-E401C015AEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21975292-5125-4DEA-ABFB-E401C015AEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21975292-5125-4DEA-ABFB-E401C015AEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21975292-5125-4DEA-ABFB-E401C015AEB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C137FB3-A864-406E-AF2D-B1BBF896BA4A}
+	EndGlobalSection
+EndGlobal
